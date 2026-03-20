@@ -23,4 +23,7 @@ Built with **HTML5, CSS3, Bootstrap, and JavaScript**, this project allows users
 # How to Run
 
 1. Download or clone the repository
-2. Open `index.html` in your browser
+2.  Open the live demo from the link below
+   
+   Live Demo
+   https://mayaremadd.github.io/Lightbox-Image-Gallery/ 
