@@ -1,0 +1,56 @@
+.item
+{
+ position: relative;
+ cursor: pointer;
+ margin-top: 20px;
+}
+
+
+.item-caption{
+    position: absolute;
+    background-color: white;
+    width: 80%;
+    left: 8%;
+    bottom: 20px;
+    text-align: center;
+    pointer-events: none;
+}
+
+.lightbox-container
+{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.lightbox-item
+{
+    width: 50%;
+    height: 500px;
+    background-image: url(../images/1723405790temp8365761416197641281.png);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.lightbox-item i
+{
+    font-size: 1.2rem;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+#close
+{
+    position: absolute;
+    top: 10px;
+    right: 8px;
+}
+
